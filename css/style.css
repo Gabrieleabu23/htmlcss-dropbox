@@ -4,9 +4,26 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;  
 }
+
 /* INIZIO CLASSI GENERALI */
+
+h5{
+    margin:30px 0px;
+}
+hr{
+    margin: 40px 0px;
+    width: 25%;
+    border: none;
+    height: 1px;
+    background-color: #ececed;
+}
+a{
+    color: #1f1df0;
+    text-align: center;
+}
+
 .spaziatura{
-    line-height: 30px;
+    padding-left: 10px;
 }
 button{
     cursor: pointer;
@@ -28,6 +45,7 @@ button{
     width: 50%;
     display: flex;
     justify-content: flex-start;
+    gap: 40px;
 }
 
 
@@ -120,21 +138,22 @@ ul img{
 }
 .container_planes{
     width: 50%;
+    gap: 40px;
     display: flex;
     justify-content:space-between;
-
+    flex-wrap: wrap;
 }
 .plane{
-    margin: 20px 20px;
-    width: calc(100%/3);
+    width: calc((100%/3) - 40px);
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #ececed;
 }
 .bottom_plane{
     width: 100%;
-    border-bottom: 1px solid black;
+    padding: 10px;
+    border-bottom: 1px solid #ececed;
 }
 .plane_info{
     display: flex;
@@ -144,15 +163,15 @@ ul img{
 }
 
 .plane_info p{
+
     font-size: 12px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
-hr{
-    width: 25%;
-    border: none;
-    height: 1px;
-    background-color: red;
+
+.plane_info button{
+    margin: 30px 0px;
 }
 
 /* FINE PARTE MAIN */
