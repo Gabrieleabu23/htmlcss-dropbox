@@ -20,6 +20,16 @@ button{
     color: black;
 }
 
+.middle{
+    margin: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+
+
 /* FINE CLASSI GENERALI */
 
 
@@ -98,3 +108,24 @@ ul img{
     margin-top: 20px;
 }
 /* FINE PARTE HEADER */
+
+/* INIZIO PARTE MAIN */
+.sec_planes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_planes{
+    display: flex;
+    justify-content:space-between;
+}
+.plane{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* DEBUG */
+    border: 1px solid black;
+}
+/* FINE PARTE MAIN */
