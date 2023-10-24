@@ -11,8 +11,8 @@
     gap: 10px;
     line-height: 30px;
 }
-body{
-    height: 100vh - 70px;
+main{
+    height: 100vh - 570px;
 }
 h5{
     margin:30px 0px;
@@ -83,6 +83,7 @@ li{
 }
 ul img{
     width: 100px;
+     vertical-align: middle;
 }
 
 .nav_bar ul{
@@ -108,7 +109,7 @@ ul img{
 .jumbo{
     display: flex;
     justify-content: center;
-    /* height: 500px;  DA FIXARE L'IMG */
+    /* height: 500px;  */
     text-align: left;
     font-size: 20px;
     background-color: #b4d0e7;
@@ -274,5 +275,86 @@ ul img{
     font-size: 12px;
 }
 
+
+/* PARTE TEAM 500.000 */
+.team_container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.team{
+    display: flex;
+    width: 50%;
+}
+
+
+/* BOXE UNIVERSITA' */
+
+.container_boxes{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    width: calc(100%/3);
+    background-color: blue;
+}
+.image_box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    /* DEBUG */
+    /* background-color: violet; */
+    /* border: 1px solid black; */
+}
+.image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: white;
+    
+    /* DEBUG */
+    /* background-color: blue; */
+    /* border: 1px solid black; */
+    /* height: calc(100%/2); */
+}
+
+/* PRIMA PARTE - SINISTRA */
+.green{
+    background-color: #a2d39b;
+    
+}
+.red{
+    background-color: #ff1c1c;
+}
+.bordeaux{
+    background-color: #61082b;
+}
+.blue{
+    background-color: #0093ce;
+}
+/* SECONDA PARTE - DESTRA */
+.red2{
+    background-color: #d5001f;
+}
+.blu_sky{
+    background-color: #b4d0e7;
+}
+.blu_dark{
+    background-color: #0d2481;
+}
+.yellow{
+    background-color: #ffd830;
+}
+.image img{
+    width: 50%;
+    filter: invert(100%) sepia(50%) saturate(37%) hue-rotate(185deg) brightness(113%) contrast(93%);
+}
+
+  
 
 /* FINE PARTE MAIN */
