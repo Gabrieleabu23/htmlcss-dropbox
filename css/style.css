@@ -422,13 +422,7 @@ footer  li a{
 }
 .container_footer{
     margin-top: 80px;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-}
-.container_footer:last-child{
-    margin-top: 80px;
-    padding-left: 10px;
+    gap: 40px;
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -443,14 +437,20 @@ footer  li a{
     border-bottom: none;
 }
 .footer_language{
-    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    padding: 20px 0px;
     border-top: 1px solid gray;
+    color: grey;
+    align-items: center;
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
 }
-.footer_language i{
-    padding: 8px 5px;
+
+.footer_language .fa-solid.fa-sort-up ,
+.fa-earth-americas{
+    margin-top: 10px;
+    padding: 0px 5px;
+    color: grey;
 }
 
 /* FINE PARTE FOOTER */
