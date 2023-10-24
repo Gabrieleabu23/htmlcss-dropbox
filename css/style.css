@@ -371,6 +371,24 @@ ul img{
     width: 50%;
     filter: invert(100%);
 }
+#image_center{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    font-size: 12px;
+}
+#image_center img{
+    width: 60%;
+}
+#image_center hr{
+    width: 20%;
+    border: 1px solid;
+    border-color: #e7e7e8;
+}
+#image_center p{
+    width: 80%;
+    margin-bottom: 50px;
+}
 
   /* DROPBOX PORTA AZIENDA */
   .container_main.blu_sky{
