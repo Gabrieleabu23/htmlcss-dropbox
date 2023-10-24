@@ -6,7 +6,14 @@
 }
 
 /* INIZIO CLASSI GENERALI */
-
+.container{
+    display: flex;
+    gap: 10px;
+    line-height: 30px;
+}
+body{
+    height: 100vh - 70px;
+}
 h5{
     margin:30px 0px;
 }
@@ -48,11 +55,6 @@ button{
     gap: 40px;
 }
 
-.fa-user,
-.fa-users,
-.fa-hotel{
-    padding-right:8px;
-}
 
 
 /* FINE CLASSI GENERALI */
@@ -66,7 +68,11 @@ li{
     list-style: none;
 }
 .nav_bar{
-    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,16 +197,21 @@ ul img{
     padding: 20px;
 }
 
-.plane_info p{
+.plane_info p:first-child{
 
     font-size: 12px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .plane_info button{
     margin: 30px 0px;
 }
 
+.plane_description{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
 /* FINE PARTE MAIN */
