@@ -64,8 +64,13 @@ button{
     background-color: transparent;
     padding: 0;
     color: black;
+    margin-bottom: 100px;
 }
 
+.fa-arrow-down{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -144,8 +149,10 @@ ul img{
 }
 
 #paragraph_jumbo{
-    width: 30%;
+    width: 70%;
     font-size: 15px;
+    display: flex;
+    flex-direction: column;
 }
 #paragraph_jumbo button{
     width: 100%;
@@ -171,7 +178,8 @@ ul img{
     margin: 50px 0px;
 }
 #radio_buttons{
-    margin: 20px 0px;
+    display: flex;
+    gap: 40px;
 }
 .planes{
     display: flex;
@@ -294,10 +302,9 @@ ul img{
 
 .team h1{
     font-size: 40px;
+    margin-bottom: 40px;
 }
-.team a{
-    margin: 40px 0px;
-}
+
 
 /* BOXE UNIVERSITA' */
 
