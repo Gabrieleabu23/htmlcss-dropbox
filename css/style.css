@@ -138,21 +138,23 @@ ul img{
 
 .jumbo_items{
     display: flex;
-    width: 100%;
     justify-content: flex-start;
+    width: 100%;
 }
 
 .jumbo_items img{
-    /* float: left; */
-    width: 600px;
+    min-width: 800px;
     order: 1;
 }
 
 #paragraph_jumbo{
-    width: 70%;
+    width: 80%;
     font-size: 15px;
     display: flex;
     flex-direction: column;
+}
+#paragraph_jumbo p{
+    width: 80%;
 }
 #paragraph_jumbo button{
     width: 100%;
