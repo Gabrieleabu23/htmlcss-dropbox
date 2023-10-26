@@ -57,6 +57,7 @@ a{
     padding-left: 10px;
 }
 button{
+    margin-top: auto;
     cursor: pointer;
     color: white;
     background-color: transparent;
@@ -259,7 +260,7 @@ ul img{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 10px 20px;   
+    margin-top: auto;   
 }
 .a_otherwise{
     margin-top: 20px;
